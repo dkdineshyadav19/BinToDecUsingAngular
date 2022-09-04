@@ -1,0 +1,17 @@
+
+<div class="bg-dark d-flex flex-column display-1 align-items-center justify-content-center container-fluid home">
+
+    <h1 class="display-1 text-light">
+        Binary 2 Decimal Conversion
+    </h1>
+    <input type="number" maxlength="8" [(ngModel)]="input" (keyup)="check()" class="display-1 input-group input-group-lg text-success" >
+    <!-- <input type="submit" value="Submit" (click)="check()" class="display-1"> -->
+    
+    
+    <h3 class="display-1 text-light">
+        result:
+        <span class="display-1 text-success">
+            {{result}}
+        </span>
+    </h3>
+</div>
